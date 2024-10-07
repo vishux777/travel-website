@@ -164,6 +164,7 @@ if (selectedTheme) {
 }
 
 // Activate / deactivate the theme manually with the button
+//Important 
 themeButton.addEventListener('click', () => {
     // Add or remove the dark / icon theme
     document.body.classList.toggle(darkTheme)
